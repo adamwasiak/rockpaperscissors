@@ -6,11 +6,27 @@ body {
     
 }
 
-.selector {
-    display: flex;
-    align-items: center;
+.main-container {
+
     justify-content: center;
+    width: auto;
 }
 
+.selector {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.selection {
+    vertical-align:top;
+    
+}
 
+.choice {
+
+    display: inline-flex;
+    width: auto;
+    
+}
