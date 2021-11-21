@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game by Adam W
+# Rock Paper Scissors Game by Adam Wasiak
 Simple online rock paper scissors game.
 Quick and simple entertainment.
 
@@ -45,10 +45,17 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 
 ## Testing 
-
+Throughout the course of testing the following key test areas were focused on:
 
 **Functional**
+-The focus of functional testing was to ensure that the logic required was observed during the game and that the user experience remained in line with expectations. 
+During testing the following aspects were reviewed:
 
+1. upon selection of either paper, rock or scissors that the correct image was appearing in the player selection area
+2. that the logic of declaring winning party at the comparison stage was correct 
+3. that points were being added correctly upon user or computer being declared as winner of individual round
+4. pop up messages (below Player and Computer selection areas) were also corresponding correctly to the outcome of the round
+5. that after number of rounds, correct party with 5 point was being declared as winner
 
 
 **Responsive user experience**
@@ -57,9 +64,11 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 **Code validator testing**
 
+The code itself was validated using HTML - W3C HTML Validator,CSS - Jigsaw CSS Validator and JavaScript - JSHint Validator
+Results have been outlined below
 
 
-**Index file**
+**HTML index file**
 
 
 
@@ -82,7 +91,8 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
   **Fixed Bugs**
   
-
+  - At the early stage of development it was noted that the JavaScript file was incorrectly linked to main index HTML file. Whilst the command for linkage was there however the     source for JS file was incomplete. This was noted and resolved in the process of project development.
+  - After implementation of JavaScrip logic, the functions were not kicking in, which led to a need to review JavaScript code. It was subsequently identified that an "=" sign       was missing in one of the "if" statement, which prevented logi kicking in. This is now resolved.
   
   **Unfixed Busg**
 
