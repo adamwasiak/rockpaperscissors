@@ -98,7 +98,10 @@ This project was created and worked using Code Institute Gitpod Full Template. O
 
 ## Credits
 
-
+-Rock Paper Scissors image- credit to OpenClipart-Vectors - https://pixabay.com/vectors/fingers-fist-hands-paper-rock-149296/
+-Paper image- credit to OpenClipart-Vectors - https://pixabay.com/vectors/rock-paper-scissors-paper-hand-296855/
+-Scissors image- credit to OpenClipart-Vectors - https://pixabay.com/vectors/rock-paper-scissors-scissors-hand-296853/
+-Rock image- credit to OpenClipart-Vectors - https://pixabay.com/vectors/rock-paper-scissors-rock-hand-296854/
 
 Thanky you to Code Institute for excellent module content, Code Institue support team and my mentor Daisy for guidance and support.
 
