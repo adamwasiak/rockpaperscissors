@@ -21,14 +21,14 @@ The focus was on keeping the game visual with limited text content limited to ke
 ## Game design 
 The game consists of 1 page, the homepage, where the actual game play takes place. 
 
--**Concept** the key concept was to create a simple, eye pleasing game, with a well-balanced contrasts and color, and also with good level of responsiveness to users' actions.
+-**Concept**- the key concept was to create a simple, eye pleasing game, with a well-balanced contrasts and color, and also with good level of responsiveness to users' actions.
 
 -**Colors and background**- the colors are primarily grey and black in terms of fonts and background.
 
 -**Typography** – I have selected font “Special Elite” with sans-serif as a fall-back font for the entire content of the website. The specific font of “Special Elite” was sourced from Google Fonts library.
 
 ## Features 
-### Main Page (Game Page)
+### Game Page
 
 
 **Main Section**
