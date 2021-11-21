@@ -1,3 +1,5 @@
+// create const and variables
+
 const choices = document.querySelectorAll(".choices");
 let playerScore = 0;
 let computerScore = 0;
@@ -87,7 +89,7 @@ function checkWinner() {
         const winner = 
         playerScore === 5
         ? "You win the game! Nice one and congrats!"
-        : "Computer wont this time. Don't give up. Try again!";
+        : "Computer won this time. Don't give up. Try again!";
         document.getElementById("result").textContent= winner;
         return true;
     }
