@@ -4,8 +4,8 @@ let computerScore = 0;
 
 // Add eventlistener for selection of choices
 
-choices.forEach(choice) => {
-    choice.addEventListener("click", function() {
+choices.forEach((choice) => {
+    choice.addEventListener("click", function () {
         const playerInput = this.value;
 
         const computerChoices = ["rock", "paper", "scissors"];
@@ -14,22 +14,22 @@ choices.forEach(choice) => {
         updateSelections(playerInput, computerInput);
         compareInputs(playerInput, computerInput);
         updateScore();
-        if(checkWinner()) {
-            playerScore = computerScore = 0;
+        if(checkWinner()){
+            playerScore = computerScore= 0;
             updateScore();
         }
+      });
     });
-});
 
 // function to update game selections on the screen for the user 
 function updateSelections(playerInput, computerInput){
-    document.getElementById("player-selection").src= `./assets/images/${playerInput}.png`;
-    document.getElementById("computer-selection").src =`.assets/images/${computerInput}.png`; 
+    document.getElementById("player-selection").src = `./assets/images/${playerInput}.png`;
+    document.getElementById("computer-selection").src =`./assets/images/${computerInput}.png`; 
 }
 
 // function to compare game inputs and publish message declaring winner after each round
 
-function compareInputs(playerInput, computerInput){
+function compareInputs(playerInput, computerInput) {
     const currentMatch = `${playerInput} vs ${computerInput}`;
     if (playerInput === computerInput) {
         document.getElementById("result").textContent = `${currentMatch} is a Tie`;
@@ -45,10 +45,10 @@ function compareInputs(playerInput, computerInput){
             document.getElementById("result").textContent = `${currentMatch} Computer wins`;
             computerScore++;
         } 
-    }
+      }
 // logic for when player selects paper
 
-    else if (playerInput ==== "paper") {
+    else if (playerInput === "paper") {
         if (computerInput === "rock") {
             document.getElementById("result").textContent = `${currentMatch} You win!`;
             playerScore++;
