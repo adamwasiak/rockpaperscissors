@@ -8,7 +8,7 @@ let computerScore = 0;
 
 choices.forEach((choice) => {
     choice.addEventListener("click", function () {
-        const playerInput = this.value;
+        const playerInput = this.name;
 
         const computerChoices = ["rock", "paper", "scissors"];
         const computerInput = computerChoices[Math.floor(Math.random() * 3)];
