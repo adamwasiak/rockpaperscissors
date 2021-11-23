@@ -35,6 +35,7 @@ function compareInputs(playerInput, computerInput) {
     const currentMatch = `${playerInput} vs ${computerInput}`;
     if (playerInput === computerInput) {
         document.getElementById("result").textContent = `${currentMatch} is a Tie`;
+        document.getElementById("result").style.color = "black";
         return;
     }
 // logic for when player selects rock
@@ -42,9 +43,11 @@ function compareInputs(playerInput, computerInput) {
     if (playerInput === "rock") {
         if (computerInput === "scissors") {
             document.getElementById("result").textContent = `${currentMatch} You win!`;
+            document.getElementById("result").style.color.bold = "green";
             playerScore++;
         }   else {
             document.getElementById("result").textContent = `${currentMatch} Computer wins`;
+            document.getElementById("result").style.color = "red";
             computerScore++;
         } 
       }
@@ -53,9 +56,11 @@ function compareInputs(playerInput, computerInput) {
     else if (playerInput === "paper") {
         if (computerInput === "rock") {
             document.getElementById("result").textContent = `${currentMatch} You win!`;
+            document.getElementById("result").style.color = "green";
             playerScore++;
         }   else { 
             document.getElementById("result").textContent = `${currentMatch} Computer wins`;
+            document.getElementById("result").style.color = "red";
             computerScore++;
         }
     }
@@ -65,9 +70,11 @@ function compareInputs(playerInput, computerInput) {
     else {
         if (computerInput === "paper") {
             document.getElementById("result").textContent = `${currentMatch} You win`;
+            document.getElementById("result").style.color = "green";
             playerScore++;
         }   else {
             document.getElementById("result").textContent = `${currentMatch} Computer wins`;
+            document.getElementById("result").style.color = "red";
             computerScore++;
             
         }
