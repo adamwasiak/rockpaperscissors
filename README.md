@@ -4,7 +4,7 @@ Quick and simple entertainment.
 
 Please visit the website in [here](https://adamwasiak.github.io/rockpaperscissors/)
 
-!placeholder for multidevice image
+![Multiscreen view](assets/images/multiscreen.jpg)
 
 ## Milestone Project 2
 ### Purpose 
