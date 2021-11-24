@@ -47,7 +47,7 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 **Options Section**
 
-[Option Area](assets/images/optionsarea.jpg)
+![Option Area](assets/images/optionsarea.jpg)
 
 
 ## Future developments
