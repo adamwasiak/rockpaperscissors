@@ -43,11 +43,11 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 **Message Section**
 
-![Message Area](assets/images/optionsarea.jpg)
+![Message Area](assets/images/messagarea.jpg)
 
 **Options Section**
 
-[Option Area](assets/images/messagarea.jpg)
+[Option Area](assets/images/optionsarea.jpg)
 
 
 ## Future developments
