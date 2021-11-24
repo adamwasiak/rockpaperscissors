@@ -32,22 +32,22 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 ![Game Page](assets/images/gamearea.jpg)
 
-**Rules and Scores section**
+**Rules and Scores Section**
 
 ![Game Page](assets/images/Header.jpg)
 
-**Selection section**
+**Selection Section**
 
 ![Selection Area](assets/images/selectionarea.jpg)
 
 
-**Message section**
+**Message Section**
 
-![Message Area](assets/images/optionarea.jpg)
+![Message Area](assets/images/optionsarea.jpg)
 
-**Options section**
+**Options Section**
 
-[Option Area](assets/images/messagearea.jpg)
+[Option Area](assets/images/messagarea.jpg)
 
 
 ## Future developments
