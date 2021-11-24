@@ -90,10 +90,13 @@ Results have been outlined below
 
 *Desktop*
 
+![Desktop](assets/images/desktop.jpg)
+
 
 
 *Mobile*
 
+![Mobile](assets/images/mobile.jpg)
 
 
 **Bugs**
