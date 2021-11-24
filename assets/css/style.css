@@ -6,23 +6,29 @@ body {
     
 }
 
+/* main container styling */
+
 .main-container {
 
     justify-content: center;
     width: auto;
 }
 
+/* styling for selected item section */
+
 .selector {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    max-width: 250px;
 }
 
 .selection {
     vertical-align:top;
     
 }
+
+/* choice section styling */
 
 .choices {
     display: inline-flex;
@@ -34,9 +40,24 @@ body {
     
 }
 
+/* footer styling */
+
 footer {
     position: absolute;
     width: 100%;
     text-align: center;
 
+}
+
+/* media query for responsivness below break point of 540px */
+
+@media screen and (max-width:540px) {
+
+.selector {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 250px; 
+}   
 }
