@@ -30,15 +30,24 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 ## Features 
 ### Game Page
 
+![Game Page](assets/images/gamearea.jpg)
 
-**Main Section**
+**Rules and Scores section**
+
+![Game Page](assets/images/Header.jpg)
+
+**Selection section**
+
+![Selection Area](assets/images/selectionarea.jpg)
 
 
+**Message section**
 
-**Footer**
+![Message Area](assets/images/optionarea.jpg)
 
+**Options section**
 
-
+[Option Area](assets/images/messagearea.jpg)
 
 
 ## Future developments
@@ -70,12 +79,12 @@ Results have been outlined below
 
 **HTML index file**
 
-
+![Index File](assets/images/indexfile.jpg)
 
 
 **CSS file**
 
-
+![CSS File](assets/images/cssfile.jpg)
 
 **Lighthouse – Dev Tools**
 
