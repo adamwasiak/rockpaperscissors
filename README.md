@@ -27,16 +27,26 @@ The game consists of 1 page, the homepage, where the actual game play takes plac
 
 -**Typography** – I have selected font “Special Elite” with sans-serif as a fall-back font for the entire content of the website. The specific font of “Special Elite” was sourced from Google Fonts library.
 
+-**Rules** - The rules of the game are communicated to the user through a static messages on the website. For each round users must choose from one of the 3 options available.
+The user selection is compared to automated computer's selection and a a winner of each round is declared in the message below selection section. There are 5 rounds and 5 wins required in order for a winner to be declared. At the end of 5th rounds winner (either user or computer ) is declared through appropriate message being displayed.
+
 ## Features 
+
 ### Game Page
+
+The below reflects layout of the entire game page, which users upon visiting the webiste will experience.
 
 ![Game Page](assets/images/gamearea.jpg)
 
 **Rules and Scores Section**
 
+Each visitor/user is welcomed with the name of the game and simple instructions to follow to play the game. The section below also reflects game score area for both user and computer. Scores are updated after each round and will run up to winner reaches 5 rounds won.
+
 ![Game Page](assets/images/Header.jpg)
 
 **Selection Section**
+
+The below section outlines 
 
 ![Selection Area](assets/images/selectionarea.jpg)
 
@@ -92,7 +102,7 @@ The code validation process in Jigsaw CSS Validator has not highlighted code err
 
 **JavaScrip file**
 
-The code validation process in JSHint Validator has not highlighted code errors.
+The code validation process in JSHint Validator has not highlighted code errors. One warning has been displayed regarding question mark in the code has been noted.
 
 ![Java File](assets/images/javascript.jpg)
 
@@ -119,8 +129,8 @@ Project was tested through Lighthouse tool for both mobile and desktop.
   
   **Unfixed Busg**
   
-  -At this moment there are no known bugs, which have been identified through testing or user experience. As noted in the future developments section above there
-   are some opportunities to improve user experience.
+  - At this moment there are no known bugs, which have been identified through testing or user experience. As noted in the future developments section above there
+    are some opportunities to improve user experience.
 
  
 ## Deployment 
