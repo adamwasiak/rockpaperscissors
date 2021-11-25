@@ -46,21 +46,32 @@ Each visitor/user is welcomed with the name of the game and simple instructions 
 
 **Selection Section**
 
-The below section outlines 
+Upon visit on the website this section will display to user 3 options available to the users. Upon selection images will update to user's selection as well as computer's selection. The image changes will progress as the game continues.
 
 ![Selection Area](assets/images/selectionarea.jpg)
 
 
 **Message Section**
 
+After commencement of the game and after each round is played the below section will display selections made (in form of words) as well as the round winner is annouced. After 5 rounds the section will update with the message declaring the overall winner of the game.
+
 ![Message Area](assets/images/messagarea.jpg)
 
 **Options Section**
+
+In the below section user will have an opportunity to make a selection of their choice for each round played. The user will be making selection by clicking on the image of their choice.
 
 ![Option Area](assets/images/optionsarea.jpg)
 
 
 ## Future developments
+
+Some of the key future developments are as follows:
+
+1. The proportions of the images and overall layout of the game for desktops users will need to be improved. The improvement is specifically in relation to enlarging images and    spreading game elements more evenly.
+2. Icon (such as Favicon) will need to be added to the website to create its own character.
+3. In order to create additional wow factor an audio effect will need to be added at the time when the overall game winner is being declared.
+4. The round winner messaages can be also improved in terms of visual effects such as words declaring winner displaying in bold.
 
 
 ## Testing 
@@ -79,7 +90,12 @@ During testing the following aspects were reviewed:
 
 **Responsive user experience**
 
+-Testing completed for responsive design for the following break point 1200px, 1024px,768px and for mobile at 320px.
 
+-Media query at the break point of 540px has been incorporated in the code, at which point the selection images will stack inline as oppose to staying in a row.
+
+-Testing for responsiveness was completed in Chrome Dev Tool. In addition the website was successfully tested on Ipad Mini device and desktop.
+ Testing was also conducted on mobile device (Samsung A21s).
 
 **Code validator testing**
 
@@ -129,8 +145,9 @@ Project was tested through Lighthouse tool for both mobile and desktop.
   
   **Unfixed Busg**
   
-  - At this moment there are no known bugs, which have been identified through testing or user experience. As noted in the future developments section above there
-    are some opportunities to improve user experience.
+  - Although extensing testing, at the last moment prior to project submission, a potential bug has been identified. The bug seems to be impacting winner message color 
+    when selection of the user is rock and computer's is scissors. Although correct winner is declared through the message, the expectation is that message will be 
+    displayed in green whereas the message remains with black color.
 
  
 ## Deployment 
@@ -151,6 +168,9 @@ This project was created and worked using Code Institute Gitpod Full Template. O
 -Scissors image- credit to OpenClipart-Vectors- https://pixabay.com/vectors/rock-paper-scissors-scissors-hand-296853/
 
 -Rock image- credit to OpenClipart-Vectors- https://pixabay.com/vectors/rock-paper-scissors-rock-hand-296854/
+
+-The project idea and concept was influenced by Code Institute's JavaScript Portfolio Project video as well as resource below:
+https://sebhastian.com/rock-paper-scissors-javascript/
 
 Thanky you to Code Institute for excellent module content, Code Institue support team and my mentor Daisy for guidance and support.
 
