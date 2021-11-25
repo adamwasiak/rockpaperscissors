@@ -79,10 +79,14 @@ Results have been outlined below
 
 **HTML index file**
 
+The code validation process in W3C HTML Validator has not highlighted code errors.
+
 ![Index File](assets/images/indexfile.jpg)
 
 
 **CSS file**
+
+The code validation process in Jigsaw CSS Validator has not highlighted code errors.
 
 ![CSS File](assets/images/cssfile.jpg)
 
