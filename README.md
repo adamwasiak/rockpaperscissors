@@ -90,12 +90,19 @@ The code validation process in Jigsaw CSS Validator has not highlighted code err
 
 ![CSS File](assets/images/cssfile.jpg)
 
+**JavaScrip file**
+
+The code validation process in JSHint Validator has not highlighted code errors.
+
+![Java File](assets/images/javascript.jpg)
+
 **Lighthouse – Dev Tools**
+
+Project was tested through Lighthouse tool for both mobile and desktop.
 
 *Desktop*
 
 ![Desktop](assets/images/desktop.jpg)
-
 
 
 *Mobile*
@@ -111,6 +118,9 @@ The code validation process in Jigsaw CSS Validator has not highlighted code err
   - After implementation of JavaScrip logic, the functions were not kicking in, which led to a need to review JavaScript code. It was subsequently identified that an "=" sign       was missing in one of the "if" statement, which prevented logi kicking in. This is now resolved.
   
   **Unfixed Busg**
+  
+  -At this moment there are no known bugs, which have been identified through testing or user experience. As noted in the future developments section above there
+   are some opportunities to improve user experience.
 
  
 ## Deployment 
