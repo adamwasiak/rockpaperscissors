@@ -38,26 +38,26 @@ The below reflects layout of the entire game page, which users upon visiting the
 
 ![Game Page](assets/images/gamearea.jpg)
 
-**Rules and Scores Section**
+### Rules and Scores Section**
 
 Each visitor/user is welcomed with the name of the game and simple instructions to follow to play the game. The section below also reflects game score area for both user and computer. Scores are updated after each round and will run up to winner reaches 5 rounds won.
 
 ![Game Page](assets/images/Header.jpg)
 
-**Selection Section**
+### Selection Section**
 
 Upon visit on the website this section will display to user 3 options available to the users. Upon selection images will update to user's selection as well as computer's selection. The image changes will progress as the game continues.
 
 ![Selection Area](assets/images/selectionarea.jpg)
 
 
-**Message Section**
+### Message Section**
 
 After commencement of the game and after each round is played the below section will display selections made (in form of words) as well as the round winner is annouced. After 5 rounds the section will update with the message declaring the overall winner of the game.
 
 ![Message Area](assets/images/messagarea.jpg)
 
-**Options Section**
+### Options Section**
 
 In the below section user will have an opportunity to make a selection of their choice for each round played. The user will be making selection by clicking on the image of their choice.
 
