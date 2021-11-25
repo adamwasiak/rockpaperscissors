@@ -118,7 +118,7 @@ The code validation process in Jigsaw CSS Validator has not highlighted code err
 
 **JavaScrip file**
 
-The code validation process in JSHint Validator has not highlighted code errors. One warning has been displayed regarding question mark in the code has been noted.
+The code validation process in JSHint Validator has not highlighted code errors. One warning has been displayed regarding question mark in the code.
 
 ![Java File](assets/images/javascript.jpg)
 
